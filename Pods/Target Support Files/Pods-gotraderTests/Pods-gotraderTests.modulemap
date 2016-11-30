@@ -1,0 +1,6 @@
+framework module Pods_gotraderTests {
+  umbrella header "Pods-gotraderTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

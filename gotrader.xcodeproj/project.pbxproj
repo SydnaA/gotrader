@@ -7,11 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45B3628FB2A72367A2E75641 /* Pods_gotraderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED5B81F696673187871DB96 /* Pods_gotraderUITests.framework */; };
+		6ED4E6E3679843DC3EE36834 /* Pods_gotraderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762A200DE7B63BD47E2A07A8 /* Pods_gotraderTests.framework */; };
+		DE0BC6AA1DED24A9005ED4CF /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0BC6A91DED24A9005ED4CF /* Post.swift */; };
 		DE1CB5391DB83EF4003F455A /* test-screenshot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE1CB5381DB83EF4003F455A /* test-screenshot.jpg */; };
 		DE1CB53D1DB84F9A003F455A /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1CB53C1DB84F9A003F455A /* ThirdViewController.swift */; };
 		DE1CB5411DB852CE003F455A /* LGSimpleChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1CB53F1DB852CE003F455A /* LGSimpleChat.swift */; };
 		DE1CB5421DB852CE003F455A /* License in Resources */ = {isa = PBXBuildFile; fileRef = DE1CB5401DB852CE003F455A /* License */; };
 		DE1CB5441DB852F5003F455A /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1CB5431DB852F5003F455A /* ChatViewController.swift */; };
+		DE7F2BF41DE3D119008E21D7 /* CreatePostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7F2BF31DE3D119008E21D7 /* CreatePostController.swift */; };
+		DE7FF5E51DED40B900ABCEBC /* SocketAckEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7FF5D01DED40B900ABCEBC /* SocketAckEmitter.swift */; };
+		DE7FF5E61DED40B900ABCEBC /* SocketAckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7FF5D11DED40B900ABCEBC /* SocketAckManager.swift */; };
+		DE7FF5E71DED40B900ABCEBC /* SocketAnyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7FF5D21DED40B900ABCEBC /* SocketAnyEvent.swift */; };
+		DE7FF5E81DED40B900ABCEBC /* SocketClientSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7FF5D31DED40B900ABCEBC /* SocketClientSpec.swift */; };
+		DE7FF5E91DED40B900ABCEBC /* SocketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7FF5D41DED40B900ABCEBC /* SocketEngine.swift */; };
+		DE7FF5EA1DED40B900ABCEBC /* SocketEngineClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7FF5D51DED40B900ABCEBC /* SocketEngineClient.swift */; };
+		DE7FF5EB1DED40B900ABCEBC /* SocketEnginePacketType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7FF5D61DED40B900ABCEBC /* SocketEnginePacketType.swift */; };
+		DE7FF5EC1DED40B900ABCEBC /* SocketEnginePollable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7FF5D71DED40B900ABCEBC /* SocketEnginePollable.swift */; };
+		DE7FF5ED1DED40B900ABCEBC /* SocketEngineSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7FF5D81DED40B900ABCEBC /* SocketEngineSpec.swift */; };
+		DE7FF5EE1DED40B900ABCEBC /* SocketEngineWebsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7FF5D91DED40B900ABCEBC /* SocketEngineWebsocket.swift */; };
+		DE7FF5EF1DED40B900ABCEBC /* SocketEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7FF5DA1DED40B900ABCEBC /* SocketEventHandler.swift */; };
+		DE7FF5F01DED40B900ABCEBC /* SocketIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7FF5DB1DED40B900ABCEBC /* SocketIOClient.swift */; };
+		DE7FF5F11DED40B900ABCEBC /* SocketIOClientOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7FF5DC1DED40B900ABCEBC /* SocketIOClientOption.swift */; };
+		DE7FF5F21DED40B900ABCEBC /* SocketIOClientStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7FF5DD1DED40B900ABCEBC /* SocketIOClientStatus.swift */; };
+		DE7FF5F31DED40B900ABCEBC /* SocketLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7FF5DE1DED40B900ABCEBC /* SocketLogger.swift */; };
+		DE7FF5F41DED40B900ABCEBC /* SocketPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7FF5DF1DED40B900ABCEBC /* SocketPacket.swift */; };
+		DE7FF5F51DED40B900ABCEBC /* SocketParsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7FF5E01DED40B900ABCEBC /* SocketParsable.swift */; };
+		DE7FF5F61DED40B900ABCEBC /* SocketStringReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7FF5E11DED40B900ABCEBC /* SocketStringReader.swift */; };
+		DE7FF5F71DED40B900ABCEBC /* SocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7FF5E21DED40B900ABCEBC /* SocketTypes.swift */; };
+		DE7FF5F81DED40B900ABCEBC /* SwiftRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7FF5E31DED40B900ABCEBC /* SwiftRegex.swift */; };
+		DE7FF5F91DED40B900ABCEBC /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7FF5E41DED40B900ABCEBC /* WebSocket.swift */; };
+		DE7FF5FB1DEE8DFE00ABCEBC /* chatHack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7FF5FA1DEE8DFE00ABCEBC /* chatHack.swift */; };
+		DE83B0FC1DED206200285604 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE83B0FB1DED206200285604 /* SwiftyJSON.swift */; };
 		DE8FFA501D9E01170087D2AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8FFA4F1D9E01170087D2AE /* AppDelegate.swift */; };
 		DE8FFA521D9E01170087D2AE /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8FFA511D9E01170087D2AE /* FirstViewController.swift */; };
 		DE8FFA541D9E01170087D2AE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8FFA531D9E01170087D2AE /* SecondViewController.swift */; };
@@ -20,6 +47,10 @@
 		DE8FFA5C1D9E01170087D2AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8FFA5A1D9E01170087D2AE /* LaunchScreen.storyboard */; };
 		DE8FFA671D9E01170087D2AE /* gotraderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8FFA661D9E01170087D2AE /* gotraderTests.swift */; };
 		DE8FFA721D9E01170087D2AE /* gotraderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8FFA711D9E01170087D2AE /* gotraderUITests.swift */; };
+		DEA0E6C21DED2C4500A52A9F /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA0E6C11DED2C4500A52A9F /* Chat.swift */; };
+		DEB276571DEBA4B10061D59A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEB276561DEBA4B10061D59A /* CoreLocation.framework */; };
+		DEB2765B1DEBC2B50061D59A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DEB2765A1DEBC2B50061D59A /* GoogleService-Info.plist */; };
+		DEB276611DEBD5D00061D59A /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB276601DEBD5D00061D59A /* SignInViewController.swift */; };
 		DEB8FEC61DB7133700CDEE05 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB8FEC51DB7133700CDEE05 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,11 +72,45 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1040938F82F7AE355A42EAA7 /* Pods-gotrader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gotrader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gotrader/Pods-gotrader.debug.xcconfig"; sourceTree = "<group>"; };
+		18A1EF8240020FC279C7E02B /* Pods_gotrader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gotrader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F1CEF6CE2AFC5A823674FA1 /* Pods-gotrader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gotrader.release.xcconfig"; path = "Pods/Target Support Files/Pods-gotrader/Pods-gotrader.release.xcconfig"; sourceTree = "<group>"; };
+		2DE6377791D63EB03C314F59 /* Pods-gotraderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gotraderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gotraderUITests/Pods-gotraderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		762A200DE7B63BD47E2A07A8 /* Pods_gotraderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gotraderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76C09AAF66E3814AF86FCD7D /* Pods-gotraderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gotraderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gotraderTests/Pods-gotraderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7ED5B81F696673187871DB96 /* Pods_gotraderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gotraderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85A04C539DC955E0D7A2D7C3 /* Pods-gotraderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gotraderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-gotraderUITests/Pods-gotraderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DE0BC6A91DED24A9005ED4CF /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		DE1CB5381DB83EF4003F455A /* test-screenshot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "test-screenshot.jpg"; sourceTree = "<group>"; };
 		DE1CB53C1DB84F9A003F455A /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		DE1CB53F1DB852CE003F455A /* LGSimpleChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LGSimpleChat.swift; sourceTree = "<group>"; };
 		DE1CB5401DB852CE003F455A /* License */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License; sourceTree = "<group>"; };
 		DE1CB5431DB852F5003F455A /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		DE7C9493722A314C7B3B82F0 /* Pods-gotraderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gotraderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-gotraderTests/Pods-gotraderTests.release.xcconfig"; sourceTree = "<group>"; };
+		DE7F2BF31DE3D119008E21D7 /* CreatePostController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePostController.swift; sourceTree = "<group>"; };
+		DE7FF5D01DED40B900ABCEBC /* SocketAckEmitter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAckEmitter.swift; sourceTree = "<group>"; };
+		DE7FF5D11DED40B900ABCEBC /* SocketAckManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAckManager.swift; sourceTree = "<group>"; };
+		DE7FF5D21DED40B900ABCEBC /* SocketAnyEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAnyEvent.swift; sourceTree = "<group>"; };
+		DE7FF5D31DED40B900ABCEBC /* SocketClientSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketClientSpec.swift; sourceTree = "<group>"; };
+		DE7FF5D41DED40B900ABCEBC /* SocketEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngine.swift; sourceTree = "<group>"; };
+		DE7FF5D51DED40B900ABCEBC /* SocketEngineClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngineClient.swift; sourceTree = "<group>"; };
+		DE7FF5D61DED40B900ABCEBC /* SocketEnginePacketType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEnginePacketType.swift; sourceTree = "<group>"; };
+		DE7FF5D71DED40B900ABCEBC /* SocketEnginePollable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEnginePollable.swift; sourceTree = "<group>"; };
+		DE7FF5D81DED40B900ABCEBC /* SocketEngineSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngineSpec.swift; sourceTree = "<group>"; };
+		DE7FF5D91DED40B900ABCEBC /* SocketEngineWebsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngineWebsocket.swift; sourceTree = "<group>"; };
+		DE7FF5DA1DED40B900ABCEBC /* SocketEventHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEventHandler.swift; sourceTree = "<group>"; };
+		DE7FF5DB1DED40B900ABCEBC /* SocketIOClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOClient.swift; sourceTree = "<group>"; };
+		DE7FF5DC1DED40B900ABCEBC /* SocketIOClientOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOClientOption.swift; sourceTree = "<group>"; };
+		DE7FF5DD1DED40B900ABCEBC /* SocketIOClientStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOClientStatus.swift; sourceTree = "<group>"; };
+		DE7FF5DE1DED40B900ABCEBC /* SocketLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketLogger.swift; sourceTree = "<group>"; };
+		DE7FF5DF1DED40B900ABCEBC /* SocketPacket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketPacket.swift; sourceTree = "<group>"; };
+		DE7FF5E01DED40B900ABCEBC /* SocketParsable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketParsable.swift; sourceTree = "<group>"; };
+		DE7FF5E11DED40B900ABCEBC /* SocketStringReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketStringReader.swift; sourceTree = "<group>"; };
+		DE7FF5E21DED40B900ABCEBC /* SocketTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketTypes.swift; sourceTree = "<group>"; };
+		DE7FF5E31DED40B900ABCEBC /* SwiftRegex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftRegex.swift; sourceTree = "<group>"; };
+		DE7FF5E41DED40B900ABCEBC /* WebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocket.swift; sourceTree = "<group>"; };
+		DE7FF5FA1DEE8DFE00ABCEBC /* chatHack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = chatHack.swift; sourceTree = "<group>"; };
+		DE83B0FB1DED206200285604 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		DE8FFA4C1D9E01170087D2AE /* gotrader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gotrader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE8FFA4F1D9E01170087D2AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE8FFA511D9E01170087D2AE /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +125,11 @@
 		DE8FFA6D1D9E01170087D2AE /* gotraderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gotraderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE8FFA711D9E01170087D2AE /* gotraderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gotraderUITests.swift; sourceTree = "<group>"; };
 		DE8FFA731D9E01170087D2AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEA0E6C11DED2C4500A52A9F /* Chat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Chat.swift; path = ../Chat.swift; sourceTree = "<group>"; };
+		DEB276561DEBA4B10061D59A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DEB2765A1DEBC2B50061D59A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DEB2765C1DEBC3A20061D59A /* gotrader-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gotrader-Bridging-Header.h"; sourceTree = "<group>"; };
+		DEB276601DEBD5D00061D59A /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		DEB8FEC51DB7133700CDEE05 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,6 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEB276571DEBA4B10061D59A /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +146,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ED4E6E3679843DC3EE36834 /* Pods_gotraderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,12 +154,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45B3628FB2A72367A2E75641 /* Pods_gotraderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AD0395BE33DAD40681FE421 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18A1EF8240020FC279C7E02B /* Pods_gotrader.framework */,
+				762A200DE7B63BD47E2A07A8 /* Pods_gotraderTests.framework */,
+				7ED5B81F696673187871DB96 /* Pods_gotraderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B2A0F47EDFD0ACA99B68335 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1040938F82F7AE355A42EAA7 /* Pods-gotrader.debug.xcconfig */,
+				1F1CEF6CE2AFC5A823674FA1 /* Pods-gotrader.release.xcconfig */,
+				76C09AAF66E3814AF86FCD7D /* Pods-gotraderTests.debug.xcconfig */,
+				DE7C9493722A314C7B3B82F0 /* Pods-gotraderTests.release.xcconfig */,
+				2DE6377791D63EB03C314F59 /* Pods-gotraderUITests.debug.xcconfig */,
+				85A04C539DC955E0D7A2D7C3 /* Pods-gotraderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DE1CB53E1DB852CE003F455A /* LGSimpleChat */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,13 +193,44 @@
 			path = LGSimpleChat;
 			sourceTree = "<group>";
 		};
+		DE7FF5CF1DED40B900ABCEBC /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DE7FF5D01DED40B900ABCEBC /* SocketAckEmitter.swift */,
+				DE7FF5D11DED40B900ABCEBC /* SocketAckManager.swift */,
+				DE7FF5D21DED40B900ABCEBC /* SocketAnyEvent.swift */,
+				DE7FF5D31DED40B900ABCEBC /* SocketClientSpec.swift */,
+				DE7FF5D41DED40B900ABCEBC /* SocketEngine.swift */,
+				DE7FF5D51DED40B900ABCEBC /* SocketEngineClient.swift */,
+				DE7FF5D61DED40B900ABCEBC /* SocketEnginePacketType.swift */,
+				DE7FF5D71DED40B900ABCEBC /* SocketEnginePollable.swift */,
+				DE7FF5D81DED40B900ABCEBC /* SocketEngineSpec.swift */,
+				DE7FF5D91DED40B900ABCEBC /* SocketEngineWebsocket.swift */,
+				DE7FF5DA1DED40B900ABCEBC /* SocketEventHandler.swift */,
+				DE7FF5DB1DED40B900ABCEBC /* SocketIOClient.swift */,
+				DE7FF5DC1DED40B900ABCEBC /* SocketIOClientOption.swift */,
+				DE7FF5DD1DED40B900ABCEBC /* SocketIOClientStatus.swift */,
+				DE7FF5DE1DED40B900ABCEBC /* SocketLogger.swift */,
+				DE7FF5DF1DED40B900ABCEBC /* SocketPacket.swift */,
+				DE7FF5E01DED40B900ABCEBC /* SocketParsable.swift */,
+				DE7FF5E11DED40B900ABCEBC /* SocketStringReader.swift */,
+				DE7FF5E21DED40B900ABCEBC /* SocketTypes.swift */,
+				DE7FF5E31DED40B900ABCEBC /* SwiftRegex.swift */,
+				DE7FF5E41DED40B900ABCEBC /* WebSocket.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		DE8FFA431D9E01170087D2AE = {
 			isa = PBXGroup;
 			children = (
 				DE8FFA4E1D9E01170087D2AE /* gotrader */,
+				DEB276561DEBA4B10061D59A /* CoreLocation.framework */,
 				DE8FFA651D9E01170087D2AE /* gotraderTests */,
 				DE8FFA701D9E01170087D2AE /* gotraderUITests */,
 				DE8FFA4D1D9E01170087D2AE /* Products */,
+				1B2A0F47EDFD0ACA99B68335 /* Pods */,
+				1AD0395BE33DAD40681FE421 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,17 +248,26 @@
 			isa = PBXGroup;
 			children = (
 				DE8FFA4F1D9E01170087D2AE /* AppDelegate.swift */,
+				DEB276601DEBD5D00061D59A /* SignInViewController.swift */,
 				DE8FFA511D9E01170087D2AE /* FirstViewController.swift */,
 				DE8FFA531D9E01170087D2AE /* SecondViewController.swift */,
+				DE7F2BF31DE3D119008E21D7 /* CreatePostController.swift */,
 				DE1CB53C1DB84F9A003F455A /* ThirdViewController.swift */,
 				DE1CB5431DB852F5003F455A /* ChatViewController.swift */,
 				DEB8FEC51DB7133700CDEE05 /* CustomTableViewCell.swift */,
+				DE83B0FB1DED206200285604 /* SwiftyJSON.swift */,
 				DE8FFA551D9E01170087D2AE /* Main.storyboard */,
 				DE8FFA581D9E01170087D2AE /* Assets.xcassets */,
 				DE8FFA5A1D9E01170087D2AE /* LaunchScreen.storyboard */,
 				DE8FFA5D1D9E01170087D2AE /* Info.plist */,
 				DE1CB5381DB83EF4003F455A /* test-screenshot.jpg */,
+				DEB2765A1DEBC2B50061D59A /* GoogleService-Info.plist */,
+				DE7FF5CF1DED40B900ABCEBC /* Source */,
 				DE1CB53E1DB852CE003F455A /* LGSimpleChat */,
+				DEB2765C1DEBC3A20061D59A /* gotrader-Bridging-Header.h */,
+				DE0BC6A91DED24A9005ED4CF /* Post.swift */,
+				DEA0E6C11DED2C4500A52A9F /* Chat.swift */,
+				DE7FF5FA1DEE8DFE00ABCEBC /* chatHack.swift */,
 			);
 			path = gotrader;
 			sourceTree = "<group>";
@@ -161,9 +297,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE8FFA761D9E01170087D2AE /* Build configuration list for PBXNativeTarget "gotrader" */;
 			buildPhases = (
+				CBA221FDE2AA0D9EB25EE66A /* [CP] Check Pods Manifest.lock */,
 				DE8FFA481D9E01170087D2AE /* Sources */,
 				DE8FFA491D9E01170087D2AE /* Frameworks */,
 				DE8FFA4A1D9E01170087D2AE /* Resources */,
+				9A1868336C6F681392D0D38C /* [CP] Embed Pods Frameworks */,
+				FC5D0894073BE9DAD27DD4F7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -178,9 +317,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE8FFA791D9E01170087D2AE /* Build configuration list for PBXNativeTarget "gotraderTests" */;
 			buildPhases = (
+				9999FCEAC9E3DB7A310A4ECC /* [CP] Check Pods Manifest.lock */,
 				DE8FFA5E1D9E01170087D2AE /* Sources */,
 				DE8FFA5F1D9E01170087D2AE /* Frameworks */,
 				DE8FFA601D9E01170087D2AE /* Resources */,
+				2AE7D5D94BD6C43FFC415E5F /* [CP] Embed Pods Frameworks */,
+				7ACDBA1B7BFF679F012A7F62 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,9 +338,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE8FFA7C1D9E01170087D2AE /* Build configuration list for PBXNativeTarget "gotraderUITests" */;
 			buildPhases = (
+				D742C221DA4CC3312B68218B /* [CP] Check Pods Manifest.lock */,
 				DE8FFA691D9E01170087D2AE /* Sources */,
 				DE8FFA6A1D9E01170087D2AE /* Frameworks */,
 				DE8FFA6B1D9E01170087D2AE /* Resources */,
+				68F56E53BB65383BC8F0A43A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -222,6 +366,7 @@
 				TargetAttributes = {
 					DE8FFA4B1D9E01170087D2AE = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = EBV669NNE7;
 					};
 					DE8FFA611D9E01170087D2AE = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -263,6 +408,7 @@
 				DE8FFA591D9E01170087D2AE /* Assets.xcassets in Resources */,
 				DE1CB5421DB852CE003F455A /* License in Resources */,
 				DE8FFA571D9E01170087D2AE /* Main.storyboard in Resources */,
+				DEB2765B1DEBC2B50061D59A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,18 +428,168 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2AE7D5D94BD6C43FFC415E5F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gotraderTests/Pods-gotraderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68F56E53BB65383BC8F0A43A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gotraderUITests/Pods-gotraderUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7ACDBA1B7BFF679F012A7F62 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gotraderTests/Pods-gotraderTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9999FCEAC9E3DB7A310A4ECC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9A1868336C6F681392D0D38C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gotrader/Pods-gotrader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBA221FDE2AA0D9EB25EE66A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D742C221DA4CC3312B68218B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FC5D0894073BE9DAD27DD4F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gotrader/Pods-gotrader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DE8FFA481D9E01170087D2AE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE7FF5E51DED40B900ABCEBC /* SocketAckEmitter.swift in Sources */,
+				DE7F2BF41DE3D119008E21D7 /* CreatePostController.swift in Sources */,
+				DEA0E6C21DED2C4500A52A9F /* Chat.swift in Sources */,
+				DE0BC6AA1DED24A9005ED4CF /* Post.swift in Sources */,
+				DE7FF5F51DED40B900ABCEBC /* SocketParsable.swift in Sources */,
+				DE7FF5E81DED40B900ABCEBC /* SocketClientSpec.swift in Sources */,
+				DE7FF5F61DED40B900ABCEBC /* SocketStringReader.swift in Sources */,
+				DE7FF5EB1DED40B900ABCEBC /* SocketEnginePacketType.swift in Sources */,
 				DE8FFA541D9E01170087D2AE /* SecondViewController.swift in Sources */,
+				DE7FF5EC1DED40B900ABCEBC /* SocketEnginePollable.swift in Sources */,
+				DE7FF5E71DED40B900ABCEBC /* SocketAnyEvent.swift in Sources */,
+				DE7FF5ED1DED40B900ABCEBC /* SocketEngineSpec.swift in Sources */,
+				DE7FF5F41DED40B900ABCEBC /* SocketPacket.swift in Sources */,
+				DE7FF5E91DED40B900ABCEBC /* SocketEngine.swift in Sources */,
 				DEB8FEC61DB7133700CDEE05 /* CustomTableViewCell.swift in Sources */,
+				DE7FF5E61DED40B900ABCEBC /* SocketAckManager.swift in Sources */,
+				DE7FF5EF1DED40B900ABCEBC /* SocketEventHandler.swift in Sources */,
+				DE7FF5F31DED40B900ABCEBC /* SocketLogger.swift in Sources */,
+				DE83B0FC1DED206200285604 /* SwiftyJSON.swift in Sources */,
+				DE7FF5F81DED40B900ABCEBC /* SwiftRegex.swift in Sources */,
+				DE7FF5F01DED40B900ABCEBC /* SocketIOClient.swift in Sources */,
+				DE7FF5F71DED40B900ABCEBC /* SocketTypes.swift in Sources */,
+				DE7FF5EE1DED40B900ABCEBC /* SocketEngineWebsocket.swift in Sources */,
 				DE1CB5441DB852F5003F455A /* ChatViewController.swift in Sources */,
 				DE8FFA501D9E01170087D2AE /* AppDelegate.swift in Sources */,
+				DE7FF5F91DED40B900ABCEBC /* WebSocket.swift in Sources */,
+				DE7FF5FB1DEE8DFE00ABCEBC /* chatHack.swift in Sources */,
+				DE7FF5EA1DED40B900ABCEBC /* SocketEngineClient.swift in Sources */,
+				DEB276611DEBD5D00061D59A /* SignInViewController.swift in Sources */,
+				DE7FF5F21DED40B900ABCEBC /* SocketIOClientStatus.swift in Sources */,
 				DE1CB53D1DB84F9A003F455A /* ThirdViewController.swift in Sources */,
 				DE8FFA521D9E01170087D2AE /* FirstViewController.swift in Sources */,
 				DE1CB5411DB852CE003F455A /* LGSimpleChat.swift in Sources */,
+				DE7FF5F11DED40B900ABCEBC /* SocketIOClientOption.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,28 +731,44 @@
 		};
 		DE8FFA771D9E01170087D2AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1040938F82F7AE355A42EAA7 /* Pods-gotrader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = gotrader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Sydn-tech.gotrader";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "gotrader/gotrader-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		DE8FFA781D9E01170087D2AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F1CEF6CE2AFC5A823674FA1 /* Pods-gotrader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = gotrader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Sydn-tech.gotrader";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "gotrader/gotrader-Bridging-Header.h";
 			};
 			name = Release;
 		};
 		DE8FFA7A1D9E01170087D2AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76C09AAF66E3814AF86FCD7D /* Pods-gotraderTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = gotraderTests/Info.plist;
@@ -469,6 +781,7 @@
 		};
 		DE8FFA7B1D9E01170087D2AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE7C9493722A314C7B3B82F0 /* Pods-gotraderTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = gotraderTests/Info.plist;
@@ -481,6 +794,7 @@
 		};
 		DE8FFA7D1D9E01170087D2AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DE6377791D63EB03C314F59 /* Pods-gotraderUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = gotraderUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -492,6 +806,7 @@
 		};
 		DE8FFA7E1D9E01170087D2AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85A04C539DC955E0D7A2D7C3 /* Pods-gotraderUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = gotraderUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

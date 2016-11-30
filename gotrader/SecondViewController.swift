@@ -10,28 +10,42 @@ import UIKit
 
 class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, LGChatControllerDelegate {
     
-    var chatLastUpdateTime: [String] = ["12:12pm","1:00pm","3:00pm"]
-    var chatTitle: [String] = ["Chat Title 1", "Chat Title 2", "Chat Title 3"]
-    var chatSubtitle: [String] = ["Chat subtitle 1", "Chat subtitle 3", "Chat subtitle 3"]
+    var chatLastUpdateTime: [String] = ["time"]
+    var chatTitle: [String] = ["title"]
+    var chatSubtitle: [String] = ["subtitle"]
+    var userID:Int?
+    
+    var chatArr : NSMutableArray = []
 
     @IBOutlet weak var ChatTableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.ChatTableView.dataSource=self
         self.ChatTableView.delegate=self
+        
         //self.ChatTableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "ChatTableViewCell")
         // Do any additional setup after loading the view, typically from a nib.
     }
     
+    func passUserID(userID: Int)
+    {
+        self.userID=1
+        retrievePost(1)
+    }
+    
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return self.chatTitle.count
+        return chatArr.count
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell:UITableViewCell = tableView.dequeueReusableCellWithIdentifier("ChatTableViewCell", forIndexPath: indexPath) as UITableViewCell
-
-        cell.textLabel?.text = self.chatLastUpdateTime[indexPath.row] + " - " + self.chatTitle[indexPath.row]
-        cell.detailTextLabel?.text = self.chatSubtitle[indexPath.row]
+        dispatch_async(dispatch_get_main_queue()) {
+            let post = self.chatArr.objectAtIndex(indexPath.row) as! chatHack
+            
+            cell.textLabel?.text = "\(post.pokemon_name)"
+            cell.detailTextLabel?.text = ""
+        }
         
         return cell
     }
@@ -55,8 +69,8 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
         let chatController = LGChatController()
         chatController.opponentImage = UIImage(named: "User")
         chatController.title = "Simple Chat"
-        let helloWorld = LGChatMessage(content: "Hello World!", sentBy: .User)
-        chatController.messages = [helloWorld]
+//        let helloWorld = LGChatMessage(content: "Hello World!", sentBy: .User)
+        chatController.messages = []
         chatController.delegate = self
         presentViewController(chatController, animated: true, completion: nil)
     }
@@ -72,6 +86,26 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
          Use this space to prevent sending a message, or to alter a message.  For example, you might want to hold a message until its successfully uploaded to a server.
          */
         return true
+    }
+    
+    func retrievePost(userID: Int)-> NSString {
+        var postList:NSString = "[]"
+        let request = NSMutableURLRequest(URL: NSURL(string: "http://go-trader.mybluemix.net/api/v1/chat/get_user_chat_list")!)
+        request.HTTPMethod = "GET"
+        request.setValue("application/json; charset=utf-8", forHTTPHeaderField: "Content-Type")
+        request.setValue("1", forHTTPHeaderField: "user_id")
+        let task = NSURLSession.sharedSession().dataTaskWithRequest(request) {(data, response, error) in
+            let json = JSON(data: data!)
+            self.chatArr.removeAllObjects()
+//            print(json.rawString())
+            for (key, subJson) in json["response"] {
+//                print(json)
+                self.chatArr.addObject(chatHack(chat_id: subJson["chat_id"].int!, go_id: subJson["go_id"].int!))
+            }
+            self.ChatTableView.reloadData()
+        }
+        task.resume()
+        return postList
     }
 
     override func didReceiveMemoryWarning() {

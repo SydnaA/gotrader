@@ -225,6 +225,10 @@ class LGChatMessageCell : UITableViewCell {
     optional func chatController(chatController: LGChatController, didAddNewMessage message: LGChatMessage)
 }
 
+extension String {
+    var lines: [String] { return self.componentsSeparatedByCharactersInSet(NSCharacterSet.newlineCharacterSet()) }
+}
+
 class LGChatController : UIViewController, UITableViewDelegate, UITableViewDataSource, LGChatInputDelegate {
     
     // MARK: Constants
@@ -241,6 +245,7 @@ class LGChatController : UIViewController, UITableViewDelegate, UITableViewDataS
     */
     var messages: [LGChatMessage] = []
     var opponentImage: UIImage?
+    var cur_user: Int = 3
     weak var delegate: LGChatControllerDelegate?
     
     // MARK: Private Properties
@@ -249,7 +254,10 @@ class LGChatController : UIViewController, UITableViewDelegate, UITableViewDataS
     private let tableView: UITableView = UITableView()
     private let chatInput = LGChatInput(frame: CGRectZero)
     private var bottomChatInputConstraint: NSLayoutConstraint!
+    let socket = SocketIOClient(socketURL: NSURL(string: "http://go-trader.mybluemix.net:80")!, options: [.Log(true), .ForcePolling(true)])
     var navView: UIView = UIView()
+    
+    
     
     
     // MARK: Life Cycle
@@ -257,6 +265,37 @@ class LGChatController : UIViewController, UITableViewDelegate, UITableViewDataS
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setup()
+        
+//        let socket = SocketIOClient(socketURL: NSURL(string: "http://go-trader.mybluemix.net:80")!, options: [.Log(true), .ForcePolling(true)])
+        
+    
+        
+        
+        socket.on("connect") {data, ack in
+            self.socket.emit("init_room", ["user_id" : 3 ])
+            
+//            self.socket.emit("chat_message", json)
+            print("socket connected")
+        }
+        
+        socket.on("chat_message") {data, ack in
+            let name = "\(data[0])"
+            
+            print(name.lines[3])
+            let msg = name.lines[3].substringWithRange(Range<String.Index>(start: name.lines[3].startIndex.advancedBy(11), end: name.lines[3].endIndex.advancedBy(-2)))
+            let newMessage = LGChatMessage(content: msg, sentBy: .Opponent)
+            self.addNewMessage(newMessage)
+            
+        }
+        
+        
+        
+        socket.connect()
+        
+        
+        
+        
+
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -309,9 +348,26 @@ class LGChatController : UIViewController, UITableViewDelegate, UITableViewDataS
         navView.addSubview(chatTitle)
         
         let backButton: UIButton = UIButton(frame: CGRect(x: 0, y: 0, width: self.view.bounds.width*0.15, height: self.view.bounds.height*0.1))
+        backButton.addTarget(self, action: #selector(LGChatController.backtoMain), forControlEvents: .TouchUpInside)
         backButton.setTitle("Back", forState: UIControlState.Normal)
         navView.addSubview(backButton)
         self.view.addSubview(navView);
+    }
+    
+    func backtoMain() {
+        self.socket.disconnect()
+//        if let storyboard = self.storyboard {
+//            if let vc = storyboard.instantiateViewControllerWithIdentifier("mainScreen") {
+//                if let ivc = vc as UITabBarController {
+//                    print("succes")
+//                    self.presentViewController(ivc, animated: true, completion: nil)
+//                }
+//            }
+//        }
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let firstViewController = storyboard.instantiateViewControllerWithIdentifier("mainScreen") as! UITabBarController
+        self.presentViewController(firstViewController, animated: true, completion: nil)
+        
     }
     
     private func setupTableView() {
@@ -432,6 +488,12 @@ class LGChatController : UIViewController, UITableViewDelegate, UITableViewDataS
     
     func chatInput(chatInput: LGChatInput, didSendMessage message: String) {
         let newMessage = LGChatMessage(content: message, sentBy: .User)
+        let json = [ "msg": message,
+                     "chat_id": 1,
+                     "from": 3,
+                     "to": 1
+        ]
+        self.socket.emit("chat_message", json)
         var shouldSendMessage = true
         if let value = self.delegate?.shouldChatController?(self, addMessage: newMessage) {
             shouldSendMessage = value

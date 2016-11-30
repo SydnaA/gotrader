@@ -1,0 +1,908 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		072AE9ACFC68AA4F573077D22564628B /* Pods-gotrader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EA6DFDA478306FA3AE38B094CEBB5CD /* Pods-gotrader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3120B74851524D8ECA85C57904245CC7 /* Pods-gotraderUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B25DACD61481AFD487C51DA81B952C3 /* Pods-gotraderUITests-dummy.m */; };
+		353D5CC2A7EB1AA27BB00185A1021D8D /* Pods-gotraderTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2DBC790A422BAFF98624A78D86DDF2 /* Pods-gotraderTests-dummy.m */; };
+		3B77C76D1EFFB1C99D01C3A14FAB7E1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		7F8C6C91510BA2E61C66BD8C15E84D9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		83869BE06777BD116980C4265F6F4EC1 /* Pods-gotraderTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5F4BFCF8F0A5D700C9CC36746D2D3E0 /* Pods-gotraderTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EAA4B9A00B55656C9154F8B5EFBD622 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		BE9004C39722EF8E1F456E7779B95443 /* Pods-gotrader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0349F4C060341AD8BF45EFE3B87EA1A /* Pods-gotrader-dummy.m */; };
+		F37B5C953F4B2A7B3962486BD1BECFB0 /* Pods-gotraderUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6B56D1A8F37AA714FA9A0476B577066 /* Pods-gotraderUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		003905CDC465C93C21236ED54404E071 /* GIDGoogleUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GIDGoogleUser.h; path = Headers/Public/GIDGoogleUser.h; sourceTree = "<group>"; };
+		038E3880603CE4E905219B646586FF71 /* libGTMOAuth2_external_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTMOAuth2_external_external.a; path = Libraries/libGTMOAuth2_external_external.a; sourceTree = "<group>"; };
+		04ABCBBEF4B9CA3299DC497E55BFF8CC /* Pods-gotrader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-gotrader.release.xcconfig"; sourceTree = "<group>"; };
+		0565912B8315CEDEAE22138F8311B5C6 /* GIDSignInButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GIDSignInButton.h; path = Headers/Public/GIDSignInButton.h; sourceTree = "<group>"; };
+		0690F223108E4AC943922E9C770B627B /* libGTM_NSStringXML_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_NSStringXML_external.a; path = Libraries/libGTM_NSStringXML_external.a; sourceTree = "<group>"; };
+		094A59D2CBC6DCCC89F79000B56E7570 /* Core.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Core.h; path = Headers/GGLCore/Public/Core.h; sourceTree = "<group>"; };
+		0A180FEF6FED117CBCE34CE8BA5FB776 /* GGLContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLContext.h; path = Headers/GGLCore/Public/GGLContext.h; sourceTree = "<group>"; };
+		111867E71A515500BBA9647350C8D7BF /* libGTM_core_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_core_external.a; path = Libraries/libGTM_core_external.a; sourceTree = "<group>"; };
+		11FD072A48D10EB131D3F1387E9A579D /* libGTM_StringEncoding_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_StringEncoding_external.a; path = Libraries/libGTM_StringEncoding_external.a; sourceTree = "<group>"; };
+		15AC5A575C375EAC8B9D659D93404AF0 /* GGLContext+SignIn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GGLContext+SignIn.h"; path = "Headers/GGLSignIn/Public/GGLContext+SignIn.h"; sourceTree = "<group>"; };
+		16A91C5AEC2D3F2E917079AA8F20746D /* CloudMessaging-Module.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CloudMessaging-Module.h"; path = "Headers/ModuleHeaders/CloudMessaging-Module.h"; sourceTree = "<group>"; };
+		1A1D0AEF70272629CA777B3136105A17 /* Pods-gotraderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-gotraderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1B4FF95BD4BFE41D1EF1940A95934FDB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A28251F1D05FFCEB7F87C9C3999B739 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleSignIn.bundle; path = Resources/GoogleSignIn.bundle; sourceTree = "<group>"; };
+		2A9C4D52B95BD46E09E1A220BCBB4EBA /* Pods-gotraderTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-gotraderTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		30C5F76976636BF5EEDB5F2005A92071 /* libGTM_KVO_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_KVO_external.a; path = Libraries/libGTM_KVO_external.a; sourceTree = "<group>"; };
+		3409101E666AEEE36C9B5793C329DC39 /* Pods-gotraderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-gotraderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4129160AAA9DC9E508A7440DFF1290DC /* libGTMSessionFetcher_full_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTMSessionFetcher_full_external.a; path = Libraries/libGTMSessionFetcher_full_external.a; sourceTree = "<group>"; };
+		45327EA90E856F7E0B841C869A0B906E /* libGTM_DebugUtils_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_DebugUtils_external.a; path = Libraries/libGTM_DebugUtils_external.a; sourceTree = "<group>"; };
+		4644B722955F2F787270B43A2B93C6F3 /* Pods-gotraderTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-gotraderTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4A2ECEA6BA5029451F97D48C6B843086 /* SignIn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SignIn.h; path = Headers/GGLSignIn/Public/SignIn.h; sourceTree = "<group>"; };
+		4A4BD00482C63CC6E8A1DB92590B7E72 /* GMRConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMRConfiguration.h; path = Headers/GGLCore/Public/GMRConfiguration.h; sourceTree = "<group>"; };
+		4C3024180D8A2797DA90A675EC03EA4A /* SignIn-Module.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SignIn-Module.h"; path = "Headers/ModuleHeaders/SignIn-Module.h"; sourceTree = "<group>"; };
+		4CD3D159FEFD7E4F58266226E64A1DDB /* libGTMStackTrace_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTMStackTrace_external.a; path = Libraries/libGTMStackTrace_external.a; sourceTree = "<group>"; };
+		4D2DBC790A422BAFF98624A78D86DDF2 /* Pods-gotraderTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-gotraderTests-dummy.m"; sourceTree = "<group>"; };
+		4E36AB9559DB377CE06495CE40016722 /* Pods-gotrader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-gotrader.debug.xcconfig"; sourceTree = "<group>"; };
+		4E400B723EAB30E5A8A7E934233367E1 /* libGTM_NSDictionary+URLArguments_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libGTM_NSDictionary+URLArguments_external.a"; path = "Libraries/libGTM_NSDictionary+URLArguments_external.a"; sourceTree = "<group>"; };
+		53CEAE5741307E3FF971FCA24DCC210B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A90A0742ACB6919511BEC8AFDC1D7BD /* libGTMOAuth2_internal_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTMOAuth2_internal_external.a; path = Libraries/libGTMOAuth2_internal_external.a; sourceTree = "<group>"; };
+		5C26EA280C33AF998FC9389FF8E720D7 /* libOpenInChrome_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libOpenInChrome_external.a; path = Libraries/libOpenInChrome_external.a; sourceTree = "<group>"; };
+		5FC623B326D8CE57AA5DD2E7A7901DE5 /* Pods-gotrader-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-gotrader-resources.sh"; sourceTree = "<group>"; };
+		6127A05E1AE81A227D003044E73110DD /* Pods-gotraderUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-gotraderUITests-frameworks.sh"; sourceTree = "<group>"; };
+		61D9B0D2D30813AB286AB516D9DDDEE5 /* GIDAuthentication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GIDAuthentication.h; path = Headers/Public/GIDAuthentication.h; sourceTree = "<group>"; };
+		6291ACBD2B1F85CCC09CB4603DE92A1E /* Pods-gotrader-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-gotrader-acknowledgements.markdown"; sourceTree = "<group>"; };
+		645EE02FB3F8AFAC093FDFEECA6EF6E1 /* GGLConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLConfiguration.h; path = Headers/GGLCore/Public/GGLConfiguration.h; sourceTree = "<group>"; };
+		6A8F2DE5EC595B2987F45F7369718EF2 /* Pods_gotraderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gotraderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B25FDA8444898BF1DE7A8485E54144B /* Pods_gotraderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gotraderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FD1813771440C0D88475A2E1B44527E /* Pods-gotraderUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-gotraderUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		702D958D3490D7A4B1A7A04661CAAF07 /* Analytics-Module.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Analytics-Module.h"; path = "Headers/ModuleHeaders/Analytics-Module.h"; sourceTree = "<group>"; };
+		745EB756EFB3E3B4C4033A8D068D58CD /* libGTM_iPhone_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_iPhone_external.a; path = Libraries/libGTM_iPhone_external.a; sourceTree = "<group>"; };
+		74B8AD85823C3C917BDE3F792698172E /* AdMob-Module.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AdMob-Module.h"; path = "Headers/ModuleHeaders/AdMob-Module.h"; sourceTree = "<group>"; };
+		792456A5F94438E8B1265E0132E1896D /* AppInvite-Module.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AppInvite-Module.h"; path = "Headers/ModuleHeaders/AppInvite-Module.h"; sourceTree = "<group>"; };
+		7B2E4A812F00976D381CCD3FA8319A0B /* GGLErrorCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLErrorCode.h; path = Headers/GGLCore/Public/GGLErrorCode.h; sourceTree = "<group>"; };
+		7F1BAC27C796DC5B51D8D1FCF82C1112 /* libSignIn_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSignIn_external.a; path = Libraries/libSignIn_external.a; sourceTree = "<group>"; };
+		83B3CBE95FADFF9254FCF479CB5D6364 /* Pods-gotrader-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-gotrader-frameworks.sh"; sourceTree = "<group>"; };
+		85F5C413F6DC36A2155C3F3958ED75C0 /* Pods-gotraderTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-gotraderTests.modulemap"; sourceTree = "<group>"; };
+		86765A6DC6649219AE3FF4F8AE3573FF /* Pods-gotrader-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-gotrader-acknowledgements.plist"; sourceTree = "<group>"; };
+		8B25DACD61481AFD487C51DA81B952C3 /* Pods-gotraderUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-gotraderUITests-dummy.m"; sourceTree = "<group>"; };
+		8C856913E36E5C8A6C5B7CB7D270DAB4 /* GIDSignIn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GIDSignIn.h; path = Headers/Public/GIDSignIn.h; sourceTree = "<group>"; };
+		8EA6DFDA478306FA3AE38B094CEBB5CD /* Pods-gotrader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-gotrader-umbrella.h"; sourceTree = "<group>"; };
+		938387F3718CF1A88D6B1F475660F75A /* libGGLSignIn.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGGLSignIn.a; path = Libraries/libGGLSignIn.a; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97376ECF0FADE116D122312320C54EE5 /* Pods-gotrader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-gotrader.modulemap"; sourceTree = "<group>"; };
+		9825CFDF52D99D2EF15BE0A0AFF61724 /* libGTM_NSStringHTML_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_NSStringHTML_external.a; path = Libraries/libGTM_NSStringHTML_external.a; sourceTree = "<group>"; };
+		984E7B0E5808C34D9811AA1575C36162 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B1FF963D7F23EE89B91078225963B01 /* libGSDK_Overload_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGSDK_Overload_external.a; path = Libraries/libGSDK_Overload_external.a; sourceTree = "<group>"; };
+		A0349F4C060341AD8BF45EFE3B87EA1A /* Pods-gotrader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-gotrader-dummy.m"; sourceTree = "<group>"; };
+		A0CF6EBB46AD87AE40D40C7868BE2A1E /* libGTM_GTMURLBuilder_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_GTMURLBuilder_external.a; path = Libraries/libGTM_GTMURLBuilder_external.a; sourceTree = "<group>"; };
+		A114ED2A6750C146E766C39552101CF0 /* libGTM_NSData+zlib_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libGTM_NSData+zlib_external.a"; path = "Libraries/libGTM_NSData+zlib_external.a"; sourceTree = "<group>"; };
+		A3846F3DFB3764F8D73D889516306F96 /* libGTMSessionFetcher_core_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTMSessionFetcher_core_external.a; path = Libraries/libGTMSessionFetcher_core_external.a; sourceTree = "<group>"; };
+		A625714570EA81C36C2541233364FFC7 /* Pods-gotraderUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-gotraderUITests-resources.sh"; sourceTree = "<group>"; };
+		AB60D7283B013B019DD5DF9457416076 /* libGTM_RoundedRectPath_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_RoundedRectPath_external.a; path = Libraries/libGTM_RoundedRectPath_external.a; sourceTree = "<group>"; };
+		AF05F4F40F28B944916DF7013F4D68EE /* Pods_gotrader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gotrader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2540CE75FE49B96F33D4E23BD39F21D /* Pods-gotraderTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-gotraderTests-resources.sh"; sourceTree = "<group>"; };
+		B3C040143CBEAB4E4DF0C8F92755380B /* libGTM_NSScannerJSON_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_NSScannerJSON_external.a; path = Libraries/libGTM_NSScannerJSON_external.a; sourceTree = "<group>"; };
+		C94751541FC90FD0655474A5B1766BB6 /* libGTM_Regex_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_Regex_external.a; path = Libraries/libGTM_Regex_external.a; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D021751B6C188EB1E2450292E80ADB7B /* Core-Module.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Core-Module.h"; path = "Headers/ModuleHeaders/Core-Module.h"; sourceTree = "<group>"; };
+		D2272348A365A9AEA8D51F023FC85C6D /* libGIPNSURL+FIFE_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libGIPNSURL+FIFE_external.a"; path = "Libraries/libGIPNSURL+FIFE_external.a"; sourceTree = "<group>"; };
+		D348C854D56741E82D37DB3BE59840B5 /* Pods-gotraderUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-gotraderUITests.modulemap"; sourceTree = "<group>"; };
+		DC1F9C3AC10E49F749DD5F7CF76515AE /* GIDProfileData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GIDProfileData.h; path = Headers/Public/GIDProfileData.h; sourceTree = "<group>"; };
+		DC7455F1568B8AAB460E609DC55B9C1A /* libGGLCore.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGGLCore.a; path = Libraries/libGGLCore.a; sourceTree = "<group>"; };
+		DE9E52B1E860254A71EE13407FE8BC2A /* Pods-gotraderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-gotraderTests.release.xcconfig"; sourceTree = "<group>"; };
+		E36F269C1021D56C71A1F914612A6E72 /* libGTM_AddressBook_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_AddressBook_external.a; path = Libraries/libGTM_AddressBook_external.a; sourceTree = "<group>"; };
+		E4CB754829565CB31BD9E3A71D7E760E /* libGTM_UIFont+LineHeight_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libGTM_UIFont+LineHeight_external.a"; path = "Libraries/libGTM_UIFont+LineHeight_external.a"; sourceTree = "<group>"; };
+		E9ECF13A4DC4714424AB1D61FF2C95DE /* libGTM_SystemVersion_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_SystemVersion_external.a; path = Libraries/libGTM_SystemVersion_external.a; sourceTree = "<group>"; };
+		ED7CA0736BC67B6CB5AD1FD841F656B5 /* Pods-gotraderUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-gotraderUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F571108DAB3DE644EB0D193E8B435C1F /* GoogleSignIn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GoogleSignIn.h; path = Headers/Public/GoogleSignIn.h; sourceTree = "<group>"; };
+		F5F4BFCF8F0A5D700C9CC36746D2D3E0 /* Pods-gotraderTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-gotraderTests-umbrella.h"; sourceTree = "<group>"; };
+		F6B56D1A8F37AA714FA9A0476B577066 /* Pods-gotraderUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-gotraderUITests-umbrella.h"; sourceTree = "<group>"; };
+		F9DB233CA5BC7C51F10443854F8DEB75 /* Pods-gotraderTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-gotraderTests-frameworks.sh"; sourceTree = "<group>"; };
+		FBB3750DA999AEB1F7A3E0C84F1384DD /* Pods-gotraderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-gotraderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FFD116E661574A0777F9980D28FC537F /* libProtocolBuffers_external.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libProtocolBuffers_external.a; path = Libraries/libProtocolBuffers_external.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		446B9EF9DEC5949C48824F8392E9BB0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EAA4B9A00B55656C9154F8B5EFBD622 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526382E0802D8BB76EC1FA1559D2ED1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8C6C91510BA2E61C66BD8C15E84D9E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75806CFD5511611D672FAF3ADB22225E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B77C76D1EFFB1C99D01C3A14FAB7E1E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C3AE1E3B077701E88A4EDDEAA9BB8DA /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				C63C0C8BB4DA9269CA609438072036F4 /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		2C552D6B752ECFDF64536527734743A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				038E3880603CE4E905219B646586FF71 /* libGTMOAuth2_external_external.a */,
+				5A90A0742ACB6919511BEC8AFDC1D7BD /* libGTMOAuth2_internal_external.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		349C96858E832F14F662559465588015 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2A28251F1D05FFCEB7F87C9C3999B739 /* GoogleSignIn.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		405C567CF2B60430537BDADCB357DB5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF05F4F40F28B944916DF7013F4D68EE /* Pods_gotrader.framework */,
+				6A8F2DE5EC595B2987F45F7369718EF2 /* Pods_gotraderTests.framework */,
+				6B25FDA8444898BF1DE7A8485E54144B /* Pods_gotraderUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40E8BF2562387BDF26349FEFA7C73A0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				938387F3718CF1A88D6B1F475660F75A /* libGGLSignIn.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		528B4135891F5F29F537E672CFB31700 /* GoogleAuthUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				2C552D6B752ECFDF64536527734743A5 /* Frameworks */,
+			);
+			path = GoogleAuthUtilities;
+			sourceTree = "<group>";
+		};
+		59DE430F5BAA682F16B8190978387700 /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				9409FC48750536F7A37B9FFA5D130C3B /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		65BF6A95BFD4F65FE7F8943BD126986A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E36F269C1021D56C71A1F914612A6E72 /* libGTM_AddressBook_external.a */,
+				111867E71A515500BBA9647350C8D7BF /* libGTM_core_external.a */,
+				45327EA90E856F7E0B841C869A0B906E /* libGTM_DebugUtils_external.a */,
+				A0CF6EBB46AD87AE40D40C7868BE2A1E /* libGTM_GTMURLBuilder_external.a */,
+				745EB756EFB3E3B4C4033A8D068D58CD /* libGTM_iPhone_external.a */,
+				30C5F76976636BF5EEDB5F2005A92071 /* libGTM_KVO_external.a */,
+				A114ED2A6750C146E766C39552101CF0 /* libGTM_NSData+zlib_external.a */,
+				4E400B723EAB30E5A8A7E934233367E1 /* libGTM_NSDictionary+URLArguments_external.a */,
+				B3C040143CBEAB4E4DF0C8F92755380B /* libGTM_NSScannerJSON_external.a */,
+				9825CFDF52D99D2EF15BE0A0AFF61724 /* libGTM_NSStringHTML_external.a */,
+				0690F223108E4AC943922E9C770B627B /* libGTM_NSStringXML_external.a */,
+				C94751541FC90FD0655474A5B1766BB6 /* libGTM_Regex_external.a */,
+				AB60D7283B013B019DD5DF9457416076 /* libGTM_RoundedRectPath_external.a */,
+				11FD072A48D10EB131D3F1387E9A579D /* libGTM_StringEncoding_external.a */,
+				E9ECF13A4DC4714424AB1D61FF2C95DE /* libGTM_SystemVersion_external.a */,
+				E4CB754829565CB31BD9E3A71D7E760E /* libGTM_UIFont+LineHeight_external.a */,
+				4CD3D159FEFD7E4F58266226E64A1DDB /* libGTMStackTrace_external.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6614945F86368DD94DF36BFFE9F4EDF6 /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				65BF6A95BFD4F65FE7F8943BD126986A /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		669A1D853CC1263EEB4C4876AA6B0D46 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7185B38AC50EF945557A8D4B283DF256 /* Pods-gotrader */,
+				7C32BA90D3E4C5F298D1A5F7D280C8FD /* Pods-gotraderTests */,
+				E2C73C82B43A28D8A05A61499AB15C49 /* Pods-gotraderUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6C4255EF199AB6FE270FE78A50B16B23 /* Google */ = {
+			isa = PBXGroup;
+			children = (
+				9A48BDC8540C1B929CF3E72774E57E69 /* Core */,
+				8CF937F173B5A217DC0B101889D95BAC /* SignIn */,
+			);
+			path = Google;
+			sourceTree = "<group>";
+		};
+		7185B38AC50EF945557A8D4B283DF256 /* Pods-gotrader */ = {
+			isa = PBXGroup;
+			children = (
+				53CEAE5741307E3FF971FCA24DCC210B /* Info.plist */,
+				97376ECF0FADE116D122312320C54EE5 /* Pods-gotrader.modulemap */,
+				6291ACBD2B1F85CCC09CB4603DE92A1E /* Pods-gotrader-acknowledgements.markdown */,
+				86765A6DC6649219AE3FF4F8AE3573FF /* Pods-gotrader-acknowledgements.plist */,
+				A0349F4C060341AD8BF45EFE3B87EA1A /* Pods-gotrader-dummy.m */,
+				83B3CBE95FADFF9254FCF479CB5D6364 /* Pods-gotrader-frameworks.sh */,
+				5FC623B326D8CE57AA5DD2E7A7901DE5 /* Pods-gotrader-resources.sh */,
+				8EA6DFDA478306FA3AE38B094CEBB5CD /* Pods-gotrader-umbrella.h */,
+				4E36AB9559DB377CE06495CE40016722 /* Pods-gotrader.debug.xcconfig */,
+				04ABCBBEF4B9CA3299DC497E55BFF8CC /* Pods-gotrader.release.xcconfig */,
+			);
+			name = "Pods-gotrader";
+			path = "Target Support Files/Pods-gotrader";
+			sourceTree = "<group>";
+		};
+		7C32BA90D3E4C5F298D1A5F7D280C8FD /* Pods-gotraderTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B4FF95BD4BFE41D1EF1940A95934FDB /* Info.plist */,
+				85F5C413F6DC36A2155C3F3958ED75C0 /* Pods-gotraderTests.modulemap */,
+				2A9C4D52B95BD46E09E1A220BCBB4EBA /* Pods-gotraderTests-acknowledgements.markdown */,
+				4644B722955F2F787270B43A2B93C6F3 /* Pods-gotraderTests-acknowledgements.plist */,
+				4D2DBC790A422BAFF98624A78D86DDF2 /* Pods-gotraderTests-dummy.m */,
+				F9DB233CA5BC7C51F10443854F8DEB75 /* Pods-gotraderTests-frameworks.sh */,
+				B2540CE75FE49B96F33D4E23BD39F21D /* Pods-gotraderTests-resources.sh */,
+				F5F4BFCF8F0A5D700C9CC36746D2D3E0 /* Pods-gotraderTests-umbrella.h */,
+				3409101E666AEEE36C9B5793C329DC39 /* Pods-gotraderTests.debug.xcconfig */,
+				DE9E52B1E860254A71EE13407FE8BC2A /* Pods-gotraderTests.release.xcconfig */,
+			);
+			name = "Pods-gotraderTests";
+			path = "Target Support Files/Pods-gotraderTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D5B8E1D68FB6B2382FA0B240E1D69435 /* Pods */,
+				405C567CF2B60430537BDADCB357DB5F /* Products */,
+				669A1D853CC1263EEB4C4876AA6B0D46 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8CF937F173B5A217DC0B101889D95BAC /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				15AC5A575C375EAC8B9D659D93404AF0 /* GGLContext+SignIn.h */,
+				4A2ECEA6BA5029451F97D48C6B843086 /* SignIn.h */,
+				40E8BF2562387BDF26349FEFA7C73A0A /* Frameworks */,
+			);
+			name = SignIn;
+			sourceTree = "<group>";
+		};
+		92E4DDE7A58003393FBE1E2FA8C66635 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C26EA280C33AF998FC9389FF8E720D7 /* libOpenInChrome_external.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9409FC48750536F7A37B9FFA5D130C3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFD116E661574A0777F9980D28FC537F /* libProtocolBuffers_external.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A48BDC8540C1B929CF3E72774E57E69 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				74B8AD85823C3C917BDE3F792698172E /* AdMob-Module.h */,
+				702D958D3490D7A4B1A7A04661CAAF07 /* Analytics-Module.h */,
+				792456A5F94438E8B1265E0132E1896D /* AppInvite-Module.h */,
+				16A91C5AEC2D3F2E917079AA8F20746D /* CloudMessaging-Module.h */,
+				094A59D2CBC6DCCC89F79000B56E7570 /* Core.h */,
+				D021751B6C188EB1E2450292E80ADB7B /* Core-Module.h */,
+				645EE02FB3F8AFAC093FDFEECA6EF6E1 /* GGLConfiguration.h */,
+				0A180FEF6FED117CBCE34CE8BA5FB776 /* GGLContext.h */,
+				7B2E4A812F00976D381CCD3FA8319A0B /* GGLErrorCode.h */,
+				4A4BD00482C63CC6E8A1DB92590B7E72 /* GMRConfiguration.h */,
+				4C3024180D8A2797DA90A675EC03EA4A /* SignIn-Module.h */,
+				B5B9BCA61E1165A351EB38B66284B3E4 /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		B202DE11E97FA4F84373764000C4C26F /* GoogleSignIn */ = {
+			isa = PBXGroup;
+			children = (
+				61D9B0D2D30813AB286AB516D9DDDEE5 /* GIDAuthentication.h */,
+				003905CDC465C93C21236ED54404E071 /* GIDGoogleUser.h */,
+				DC1F9C3AC10E49F749DD5F7CF76515AE /* GIDProfileData.h */,
+				8C856913E36E5C8A6C5B7CB7D270DAB4 /* GIDSignIn.h */,
+				0565912B8315CEDEAE22138F8311B5C6 /* GIDSignInButton.h */,
+				F571108DAB3DE644EB0D193E8B435C1F /* GoogleSignIn.h */,
+				C8CFBA9AD19BDA2AE5C39F585DCE06CB /* Frameworks */,
+				349C96858E832F14F662559465588015 /* Resources */,
+			);
+			path = GoogleSignIn;
+			sourceTree = "<group>";
+		};
+		B5B9BCA61E1165A351EB38B66284B3E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC7455F1568B8AAB460E609DC55B9C1A /* libGGLCore.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C29611BC1609A54D111C6A06A0548A00 /* GoogleNetworkingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				FEB53BAA7CA55FCC9174CAEAC0C1E737 /* Frameworks */,
+			);
+			path = GoogleNetworkingUtilities;
+			sourceTree = "<group>";
+		};
+		C63C0C8BB4DA9269CA609438072036F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B1FF963D7F23EE89B91078225963B01 /* libGSDK_Overload_external.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8CFBA9AD19BDA2AE5C39F585DCE06CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2272348A365A9AEA8D51F023FC85C6D /* libGIPNSURL+FIFE_external.a */,
+				7F1BAC27C796DC5B51D8D1FCF82C1112 /* libSignIn_external.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5B8E1D68FB6B2382FA0B240E1D69435 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C4255EF199AB6FE270FE78A50B16B23 /* Google */,
+				FCDFBE0E93E4C262B08B2AA5C9E248B8 /* GoogleAppUtilities */,
+				528B4135891F5F29F537E672CFB31700 /* GoogleAuthUtilities */,
+				59DE430F5BAA682F16B8190978387700 /* GoogleInterchangeUtilities */,
+				C29611BC1609A54D111C6A06A0548A00 /* GoogleNetworkingUtilities */,
+				B202DE11E97FA4F84373764000C4C26F /* GoogleSignIn */,
+				2C3AE1E3B077701E88A4EDDEAA9BB8DA /* GoogleSymbolUtilities */,
+				6614945F86368DD94DF36BFFE9F4EDF6 /* GoogleUtilities */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E2C73C82B43A28D8A05A61499AB15C49 /* Pods-gotraderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				984E7B0E5808C34D9811AA1575C36162 /* Info.plist */,
+				D348C854D56741E82D37DB3BE59840B5 /* Pods-gotraderUITests.modulemap */,
+				ED7CA0736BC67B6CB5AD1FD841F656B5 /* Pods-gotraderUITests-acknowledgements.markdown */,
+				6FD1813771440C0D88475A2E1B44527E /* Pods-gotraderUITests-acknowledgements.plist */,
+				8B25DACD61481AFD487C51DA81B952C3 /* Pods-gotraderUITests-dummy.m */,
+				6127A05E1AE81A227D003044E73110DD /* Pods-gotraderUITests-frameworks.sh */,
+				A625714570EA81C36C2541233364FFC7 /* Pods-gotraderUITests-resources.sh */,
+				F6B56D1A8F37AA714FA9A0476B577066 /* Pods-gotraderUITests-umbrella.h */,
+				1A1D0AEF70272629CA777B3136105A17 /* Pods-gotraderUITests.debug.xcconfig */,
+				FBB3750DA999AEB1F7A3E0C84F1384DD /* Pods-gotraderUITests.release.xcconfig */,
+			);
+			name = "Pods-gotraderUITests";
+			path = "Target Support Files/Pods-gotraderUITests";
+			sourceTree = "<group>";
+		};
+		FCDFBE0E93E4C262B08B2AA5C9E248B8 /* GoogleAppUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				92E4DDE7A58003393FBE1E2FA8C66635 /* Frameworks */,
+			);
+			path = GoogleAppUtilities;
+			sourceTree = "<group>";
+		};
+		FEB53BAA7CA55FCC9174CAEAC0C1E737 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3846F3DFB3764F8D73D889516306F96 /* libGTMSessionFetcher_core_external.a */,
+				4129160AAA9DC9E508A7440DFF1290DC /* libGTMSessionFetcher_full_external.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		17C47C1CA2CF617080DEEB78F1614EC9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072AE9ACFC68AA4F573077D22564628B /* Pods-gotrader-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A740618EF069699D3121CF790127AF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F37B5C953F4B2A7B3962486BD1BECFB0 /* Pods-gotraderUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79D9CFE2234F412E5E5BF923E5C53F51 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83869BE06777BD116980C4265F6F4EC1 /* Pods-gotraderTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		12CB867DA16315055064AB8D8CC7B42D /* Pods-gotrader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97BFD492599BBE0E992A4D00D23FFFB8 /* Build configuration list for PBXNativeTarget "Pods-gotrader" */;
+			buildPhases = (
+				D8650C63B6E793CA29B892282B27F401 /* Sources */,
+				526382E0802D8BB76EC1FA1559D2ED1E /* Frameworks */,
+				17C47C1CA2CF617080DEEB78F1614EC9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-gotrader";
+			productName = "Pods-gotrader";
+			productReference = AF05F4F40F28B944916DF7013F4D68EE /* Pods_gotrader.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4053CF8CC833E37592C5364CD85F5EAB /* Pods-gotraderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A75F42D1E906FF337711E99EC03897DF /* Build configuration list for PBXNativeTarget "Pods-gotraderTests" */;
+			buildPhases = (
+				ED11083C3791A83291C7F7DD44DC3EAA /* Sources */,
+				446B9EF9DEC5949C48824F8392E9BB0A /* Frameworks */,
+				79D9CFE2234F412E5E5BF923E5C53F51 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-gotraderTests";
+			productName = "Pods-gotraderTests";
+			productReference = 6A8F2DE5EC595B2987F45F7369718EF2 /* Pods_gotraderTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6DF970E7C752B8E8E9DE0292E822066B /* Pods-gotraderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20ACAB4BCF864E0E985EF78850CF1334 /* Build configuration list for PBXNativeTarget "Pods-gotraderUITests" */;
+			buildPhases = (
+				18E5F186561EFE1306B0643BDC360CD0 /* Sources */,
+				75806CFD5511611D672FAF3ADB22225E /* Frameworks */,
+				40A740618EF069699D3121CF790127AF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-gotraderUITests";
+			productName = "Pods-gotraderUITests";
+			productReference = 6B25FDA8444898BF1DE7A8485E54144B /* Pods_gotraderUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 405C567CF2B60430537BDADCB357DB5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12CB867DA16315055064AB8D8CC7B42D /* Pods-gotrader */,
+				4053CF8CC833E37592C5364CD85F5EAB /* Pods-gotraderTests */,
+				6DF970E7C752B8E8E9DE0292E822066B /* Pods-gotraderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18E5F186561EFE1306B0643BDC360CD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3120B74851524D8ECA85C57904245CC7 /* Pods-gotraderUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8650C63B6E793CA29B892282B27F401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9004C39722EF8E1F456E7779B95443 /* Pods-gotrader-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED11083C3791A83291C7F7DD44DC3EAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353D5CC2A7EB1AA27BB00185A1021D8D /* Pods-gotraderTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59A4ECCE9F95A3DD39F58FA8C6B13F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBB3750DA999AEB1F7A3E0C84F1384DD /* Pods-gotraderUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-gotraderUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-gotraderUITests/Pods-gotraderUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_gotraderUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BA24F262B6746C0322D6722744E0EF27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E36AB9559DB377CE06495CE40016722 /* Pods-gotrader.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-gotrader/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-gotrader/Pods-gotrader.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_gotrader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CB3C338D300079081E8F2CCB34FDB0F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A1D0AEF70272629CA777B3136105A17 /* Pods-gotraderUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-gotraderUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-gotraderUITests/Pods-gotraderUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_gotraderUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CEB6932F65E60A93BE7BF484760F72D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3409101E666AEEE36C9B5793C329DC39 /* Pods-gotraderTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-gotraderTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-gotraderTests/Pods-gotraderTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_gotraderTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4A6CC8B1A534895B2268C19E4B761EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04ABCBBEF4B9CA3299DC497E55BFF8CC /* Pods-gotrader.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-gotrader/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-gotrader/Pods-gotrader.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_gotrader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EB22EA77CF0EBF1F30E617E749144F17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE9E52B1E860254A71EE13407FE8BC2A /* Pods-gotraderTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-gotraderTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-gotraderTests/Pods-gotraderTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_gotraderTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20ACAB4BCF864E0E985EF78850CF1334 /* Build configuration list for PBXNativeTarget "Pods-gotraderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB3C338D300079081E8F2CCB34FDB0F6 /* Debug */,
+				59A4ECCE9F95A3DD39F58FA8C6B13F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97BFD492599BBE0E992A4D00D23FFFB8 /* Build configuration list for PBXNativeTarget "Pods-gotrader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA24F262B6746C0322D6722744E0EF27 /* Debug */,
+				E4A6CC8B1A534895B2268C19E4B761EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A75F42D1E906FF337711E99EC03897DF /* Build configuration list for PBXNativeTarget "Pods-gotraderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB6932F65E60A93BE7BF484760F72D9 /* Debug */,
+				EB22EA77CF0EBF1F30E617E749144F17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
