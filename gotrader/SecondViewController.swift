@@ -68,7 +68,7 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
     func launchChatController() {
         let chatController = LGChatController()
         chatController.opponentImage = UIImage(named: "User")
-        chatController.title = "Simple Chat"
+        chatController.title = "Lets Talk"
 //        let helloWorld = LGChatMessage(content: "Hello World!", sentBy: .User)
         chatController.messages = []
         chatController.delegate = self

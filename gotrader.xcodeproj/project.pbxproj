@@ -15,6 +15,8 @@
 		DE1CB5411DB852CE003F455A /* LGSimpleChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1CB53F1DB852CE003F455A /* LGSimpleChat.swift */; };
 		DE1CB5421DB852CE003F455A /* License in Resources */ = {isa = PBXBuildFile; fileRef = DE1CB5401DB852CE003F455A /* License */; };
 		DE1CB5441DB852F5003F455A /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1CB5431DB852F5003F455A /* ChatViewController.swift */; };
+		DE31B05E1DEEA2940054321F /* dra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE31B05C1DEEA2940054321F /* dra.jpg */; };
+		DE31B05F1DEEA2940054321F /* gya.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE31B05D1DEEA2940054321F /* gya.jpg */; };
 		DE7F2BF41DE3D119008E21D7 /* CreatePostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7F2BF31DE3D119008E21D7 /* CreatePostController.swift */; };
 		DE7FF5E51DED40B900ABCEBC /* SocketAckEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7FF5D01DED40B900ABCEBC /* SocketAckEmitter.swift */; };
 		DE7FF5E61DED40B900ABCEBC /* SocketAckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7FF5D11DED40B900ABCEBC /* SocketAckManager.swift */; };
@@ -86,6 +88,8 @@
 		DE1CB53F1DB852CE003F455A /* LGSimpleChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LGSimpleChat.swift; sourceTree = "<group>"; };
 		DE1CB5401DB852CE003F455A /* License */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License; sourceTree = "<group>"; };
 		DE1CB5431DB852F5003F455A /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		DE31B05C1DEEA2940054321F /* dra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dra.jpg; sourceTree = "<group>"; };
+		DE31B05D1DEEA2940054321F /* gya.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gya.jpg; sourceTree = "<group>"; };
 		DE7C9493722A314C7B3B82F0 /* Pods-gotraderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gotraderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-gotraderTests/Pods-gotraderTests.release.xcconfig"; sourceTree = "<group>"; };
 		DE7F2BF31DE3D119008E21D7 /* CreatePostController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePostController.swift; sourceTree = "<group>"; };
 		DE7FF5D01DED40B900ABCEBC /* SocketAckEmitter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAckEmitter.swift; sourceTree = "<group>"; };
@@ -260,6 +264,8 @@
 				DE8FFA581D9E01170087D2AE /* Assets.xcassets */,
 				DE8FFA5A1D9E01170087D2AE /* LaunchScreen.storyboard */,
 				DE8FFA5D1D9E01170087D2AE /* Info.plist */,
+				DE31B05C1DEEA2940054321F /* dra.jpg */,
+				DE31B05D1DEEA2940054321F /* gya.jpg */,
 				DE1CB5381DB83EF4003F455A /* test-screenshot.jpg */,
 				DEB2765A1DEBC2B50061D59A /* GoogleService-Info.plist */,
 				DE7FF5CF1DED40B900ABCEBC /* Source */,
@@ -409,6 +415,8 @@
 				DE1CB5421DB852CE003F455A /* License in Resources */,
 				DE8FFA571D9E01170087D2AE /* Main.storyboard in Resources */,
 				DEB2765B1DEBC2B50061D59A /* GoogleService-Info.plist in Resources */,
+				DE31B05E1DEEA2940054321F /* dra.jpg in Resources */,
+				DE31B05F1DEEA2940054321F /* gya.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

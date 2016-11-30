@@ -83,7 +83,16 @@ class FirstViewController: UIViewController, UITabBarControllerDelegate, UITable
         
         dispatch_async(dispatch_get_main_queue()) {
             // code here
-            cell.pokemon_image.image = UIImage(named: "test-screenshot.jpg")
+            print(indexPath.row)
+            if indexPath.row == 0 {
+                cell.pokemon_image.image = UIImage(named: "dra.jpg")
+            } else if indexPath.row == 1 {
+                cell.pokemon_image.image = UIImage(named: "gya.jpg")
+            } else {
+                print("asd \(indexPath.row)")
+                 cell.pokemon_image.image = UIImage(named: "test-screenshot.jpg")
+            }
+            
             
             let post = self.postArr.objectAtIndex(indexPath.row) as! Post
             
@@ -130,7 +139,7 @@ class FirstViewController: UIViewController, UITabBarControllerDelegate, UITable
     func launchChatController() {
         let chatController = LGChatController()
         chatController.opponentImage = UIImage(named: "User")
-        chatController.title = "Simple Chat"
+        chatController.title = "Lets Talk"
 //        let helloWorld = LGChatMessage(content: "Hello World!", sentBy: .User)
         chatController.messages = []
         chatController.delegate = self
