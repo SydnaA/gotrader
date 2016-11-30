@@ -282,7 +282,7 @@ class LGChatController : UIViewController, UITableViewDelegate, UITableViewDataS
             let name = "\(data[0])"
             
             print(name.lines[3])
-            let msg = name.lines[3].substringWithRange(Range<String.Index>(start: name.lines[3].startIndex.advancedBy(11), end: name.lines[3].endIndex.advancedBy(-2)))
+            let msg = name.lines[3].substringWithRange(Range<String.Index>(start: name.lines[3].startIndex.advancedBy(10), end: name.lines[3].endIndex.advancedBy(-1)))
             let newMessage = LGChatMessage(content: msg, sentBy: .Opponent)
             self.addNewMessage(newMessage)
             
@@ -344,7 +344,7 @@ class LGChatController : UIViewController, UITableViewDelegate, UITableViewDataS
         let chatTitle: UILabel = UILabel(frame: CGRect(x: 0, y: 0, width: self.view.bounds.width, height: self.view.bounds.height*0.1))
         chatTitle.textAlignment = .Center
         chatTitle.textColor = UIColor.whiteColor()
-        chatTitle.text = "Chat title"
+        chatTitle.text = "Lets Talk"
         navView.addSubview(chatTitle)
         
         let backButton: UIButton = UIButton(frame: CGRect(x: 0, y: 0, width: self.view.bounds.width*0.15, height: self.view.bounds.height*0.1))
